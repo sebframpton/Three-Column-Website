@@ -13,7 +13,7 @@
   
   <title>Frontend Mentor | 3-column preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- Feel free to remove these styles or customise in your own stylesheet ðŸ‘ -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -21,6 +21,7 @@
   box-sizing: border-box;
 }
 body{
+font-family: 'Lexend Deca', sans-serif;
 font-size:15px;
 }
 /* Container for flexboxes */
@@ -69,7 +70,6 @@ color:#F2F2F2;
 
 
 .btn-sedan{
-
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -99,7 +99,7 @@ background:#F2F2F2;
 }
 
 .btn-suv{
-
+font-family: 'Lexend Deca', sans-serif;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -124,7 +124,7 @@ background:#F2F2F2;
 }
 
 .btn-luxury{
-
+font-family: 'Lexend Deca', sans-serif;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -144,7 +144,7 @@ border-radius: 30px;
 
 /* Button/Hover&Clik/Luxury */
 .btn-luxury:hover{
-
+font-family: 'Lexend Deca', sans-serif;
 color:#004241;
 background:#F2F2F2;
 
@@ -229,7 +229,7 @@ align-items: flex-start;
 padding: 10px;
 gap: 10px;
 font-size:15px;
-line-height:auto;
+
 position: relative;
 width: 237px;
 height: 115px;
@@ -286,7 +286,7 @@ color:#F2F2F2;
   
 	<div class="row">
   <div class="column" id="column-1">
-      <img src="images/icon-sedans.svg">
+      <img src="images/icon-sedans.svg" alt="sedans">
 	  <h3 class="sedan">  Sedans</h3>
       <p class="text-sedan"> Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
   or on your next road trip.</p>
@@ -297,23 +297,23 @@ color:#F2F2F2;
  
    
 	<div class="column" id="column-2">
-	 <img src="images/icon-suvs.svg">
+	 <img src="images/icon-suvs.svg" alt="suvs">
       <h3 class="suv">SUVs</h3>
       <p class="text-suv">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
   and off-road adventures.</p>
-      <p class="btn-suv">Learn More</p>
+      <button class="btn-suv">Learn More</button>
 
 </div>
 
   
 
   <div class="column" id="column-3">
-	 <img src="images/icon-luxury.svg">
+	 <img src="images/icon-luxury.svg" alt="luxury">
       <h3 class="luxury"> Luxury</h3>
       <p class="text-luxury">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
   rental and arrive in style.
   </p>
-      <p class="btn-luxury">Learn More</p>
+      <button class="btn-luxury">Learn More</button>
  
   </div>
 </div>
